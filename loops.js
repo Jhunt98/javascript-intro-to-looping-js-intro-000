@@ -23,4 +23,5 @@ function incrementVariable() {
 
 function doWhileLoop(num){
   do{console.log("I run once regardless")}
-while(incrementVariable() < num)}
+while(incrementVariable() < num)
+return doWhileLoop(10)}
